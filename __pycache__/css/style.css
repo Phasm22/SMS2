@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+:root{
+    --color-primary: darkgrey;
+    --color-secondary: black
+
+}
+body{
+    background-color: var(--color-primary);
+    color: var(--color-secondary)
+}
+
+header{
+    overflow: hidden;
+    padding: 0 !important;
+}
+.controls {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
