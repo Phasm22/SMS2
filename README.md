@@ -26,7 +26,8 @@ Install Flask
 ```http
 pip install Flask
 ```
-2. Start the server and lauch the Web app locally
+2. Navigate to PWD
+2. run server.py and lauch the Web app locally
 # Project Title
 
 ## API Reference
